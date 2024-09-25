@@ -1,10 +1,10 @@
-function toggleButton (id) {
+function toggleButtonAction (id) {
     document.getElementById ('donation-cards').classList.add ('hidden');
     document.getElementById ('donation-history').classList.add ('hidden');
     document.getElementById (id).classList.remove ('hidden');
 }
 
-function toggleBtnColor (id) {
+function toggleBtnColorAction (id) {
     document.getElementById ('toggle-history-btn').classList.add('bg-transparent', 'border');
     document.getElementById ('toggle-donation-btn').classList.add('bg-transparent', 'border');
     document.getElementById (id).classList.remove('bg-transparent', 'border');

@@ -1,12 +1,12 @@
 
 document.getElementById('toggle-donation-btn').addEventListener ('click', function(event){
-    toggleButton ('donation-cards');
-    toggleBtnColor (event.target.id);
+    toggleButtonAction ('donation-cards');
+    toggleBtnColorAction (event.target.id);
 })
 
 document.getElementById('toggle-history-btn').addEventListener ('click', function(event){
-    toggleButton ('donation-history');
-    toggleBtnColor (event.target.id);
+    toggleButtonAction ('donation-history');
+    toggleBtnColorAction (event.target.id);
 })
 
 document.getElementById('donation-btn-noakhali').addEventListener ('click', function(){
